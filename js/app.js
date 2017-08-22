@@ -6,7 +6,11 @@ myApp.controller("myController", function($scope){
 	 $scope.newmovie = {};
 	 $scope.clickedmovie = {};
 
-	 $scope.movies = [{Title:"300", Duration:"1.45",Actors :"Jhon",Director :"Oliver"}];
+	 $scope.movies = [{Title:"300", Duration:"1.45",Actors :"Jhon",Director :"Oliver"},
+	                   {Title:"Game of Thrones", Duration:"1.07",Actors :"Jhon Snow",Director :"Paul"},
+					   {Title:"Batman", Duration:"1.35",Actors :"Batman",Director :"Sarra"}
+	 
+	 ];
 	  
 
 	$scope.savemovie = function(){
