@@ -7,6 +7,7 @@ myApp.controller("myController", function($scope){
 	 $scope.clickedmovie = {};
 
 	 $scope.movies = [{Title:"300", Duration:"1.45",Actors :"Jhon",Director :"Oliver"}];
+	  
 
 	$scope.savemovie = function(){
 	 $scope.movies.push($scope.newmovie);
